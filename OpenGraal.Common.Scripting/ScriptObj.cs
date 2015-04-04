@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OpenGraal.Common.Players;
+//using OpenGraal.Common.Players; // Not in Common according to compiler
 using OpenGraal.Core;
 using System.Reflection;
 
