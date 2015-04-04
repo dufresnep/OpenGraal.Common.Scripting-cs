@@ -31,9 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ClassLibrary">
-      <HintPath>..\..\OpenGraal.Core-cs\bin\Debug\ClassLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -51,16 +48,6 @@
     <Compile Include="ScriptObj.cs" />
     <Compile Include="ServerClass.cs" />
     <Compile Include="ServerWeapon.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\opengraal.common.interfaces-cs\trunk\OpenGraal.Common.Interfaces\OpenGraal.Common.Interfaces.csproj">
-      <Project>{F35CB43B-DCA8-4283-900A-2923C7C67483}</Project>
-      <Name>OpenGraal.Common.Interfaces</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\opengraal.core-cs\trunk\OpenGraal.Core\OpenGraal.Core.csproj">
-      <Project>{CC4AF8B5-BECF-4562-A0E5-94FBE0FBAB8F}</Project>
-      <Name>OpenGraal.Core</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
