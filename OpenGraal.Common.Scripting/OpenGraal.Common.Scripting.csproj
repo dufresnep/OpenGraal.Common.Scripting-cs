@@ -49,6 +49,12 @@
     <Compile Include="ServerClass.cs" />
     <Compile Include="ServerWeapon.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\OpenGraal.Core-cs\CoreVS2013.csproj">
+      <Project>{265ad0ca-2b19-42ab-9949-b04a135969f5}</Project>
+      <Name>CoreVS2013</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
