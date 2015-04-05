@@ -218,7 +218,7 @@ namespace OpenGraal.Common.Scripting
 		/// <summary>
 		/// Library Function -> Trigger Event
 		/// </summary>
-		public void trigger(IPlayer player, string Event, string[] args)
+		public void trigger(OpenGraal.Common.Players.IPlayer player, string Event, string[] args)
 		{
 			this.Call(Event, new object[] { player, args });
 		}

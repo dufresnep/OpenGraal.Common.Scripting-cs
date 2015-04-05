@@ -50,6 +50,10 @@
     <Compile Include="ServerWeapon.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\OpenGraal.Common.Interfaces-cs\OpenGraal.Common.Interfaces\OpenGraal.Common.Interfaces.csproj">
+      <Project>{f35cb43b-dca8-4283-900a-2923c7c67483}</Project>
+      <Name>OpenGraal.Common.Interfaces</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\OpenGraal.Core-cs\CoreVS2013.csproj">
       <Project>{265ad0ca-2b19-42ab-9949-b04a135969f5}</Project>
       <Name>CoreVS2013</Name>
